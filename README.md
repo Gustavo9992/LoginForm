@@ -5,4 +5,4 @@ Technologies:
 HTML
 CSS
 JavaScript
-![image](https://user-images.githubusercontent.com/85003081/156931094-81a80437-f29e-4049-9934-a0bb7f16f5b4.png)
+![image](https://user-images.githubusercontent.com/85003081/156931134-820d8c38-44fd-44f2-b7e7-801f761b0b08.png)
