@@ -1,6 +1,6 @@
 # LoginForm
 Login page
 
-hammer_and_wrench Technologies
+Technologies:
 HTML
 CSS
