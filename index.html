@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form CSS</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+</head>
+<body>
+    <div class="formulary">
+        <img src="./images/logo.svg" alt="">
+        <div class="retangle">
+            <form>
+                <div class="inform">
+                    <img src="./images/log-in (1).svg" alt="">
+                    <h1>
+                        Faça seu login
+                    </h1>
+                <span>Entre com suas informações de cadastro.</span>
+                </div>
+                <div class="email">
+                    <h3>E-mail</h3>
+                    <fieldset>
+                        <img src="./images/mail.svg" alt="">
+                        <input class="input" type="email" placeholder="Digite seu e-mail" size="30" patern="[^@\s]+@[^@\s]+\.[^@\s]+" title="Endereço de email inválido" required>
+                        <label for=""></label>
+                    </fieldset>
+                </div>
+                <div class="password">
+                    <h3>Senha</h3>
+                    <fieldset>
+                        <img src="./images/lock.svg" alt="">
+                        <input class="input" id="pass" type="password" placeholder="Digite sua senha" size="30" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="A senha deve contém pelo menos um número, uma letra maiúscula e uma minúscula, e deve conter 8 ou mais caracteres" required>
+                        <span id="visibility-toggle" 
+                        class="material-icons-outlined">visibility</span>
+                        <!-- <img id="eye" src="./images/eye.svg" alt=""> -->
+                    </fieldset>
+                </div>
+                <div class="checkbox">
+                    <label class="container">
+                        <input type="checkbox" value="true" checked>
+                        <span class="checkmark"></span>
+                    </label>
+                    <label id="remember" for="lembrar">Lembrar-me</label>
+                </div>
+                <div class="forget">
+                    <a href="#">Esqueci minha senha</a>
+                </div>
+                <div class="button">
+                    <button type="submit">
+                        <label for="join">ENTRAR</label>
+                    </button>
+                </div>
+                <div class="registration">
+                    <span>Não tem uma conta?</span>
+                    <a href="#">Registre-se</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="side-img">
+        <img src="./images/side-image.jpg" alt="side-image">
+    </div>
+    <script src="./scripts.js"></script>
+</body>
+</html>
