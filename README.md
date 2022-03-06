@@ -4,3 +4,4 @@ Login page
 Technologies:
 HTML
 CSS
+JavaScript
